@@ -1,4 +1,4 @@
-a = This is a python string
+a = "This is a python string"
 b = 7 % 3
 c = 7 % 3
 name1 = "KCGI"
