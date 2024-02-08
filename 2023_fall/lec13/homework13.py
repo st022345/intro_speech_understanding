@@ -14,7 +14,7 @@ def extract_stories_from_NPR_text(text):
     '''
     #raise RuntimeError('You need to write this part!')
     soup = bs4.BeautifulSoup(text, "html.parser")
-     stories = []
+    stories = []
     for div_tag in soup.find_all('div', 'story-text'):
         titletag = div_tag.find('h3', 'title')
         teasertag = div_tag.find('p', 'teaser')
